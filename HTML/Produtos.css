@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+
+#menu{
+list-style: none;
+padding: 0;
+background-color: black;
+background-position: 10px;
+
+}
+
+#menu li{
+    display: inline;
+    padding: 2px 20px;
+}
+
+#menu li a{
+    color: white;
+    outline: none;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: inline-block;
+    transition: background .3s;
+}
+
+#menu li a:hover{
+    color: rgb(45, 87, 134);
+}

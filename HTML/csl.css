@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+
+#menu{
+list-style: none;
+padding: 0;
+background-color: black;
+background-position: 10px;
+display: inline-block;
+list-style-type: none;
+}
+
+#menu li{
+    display: inline-block;
+    padding: 2px 20px;
+}
+
+#menu li a{
+    color: white;
+    outline: none;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: inline-block;
+    transition: background .3s;
+}
+
+#menu li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(42, 109, 209);
+}
+nav{
+    background-color: red;
+    list-style: none;
+}
+.sub-menu-1{
+    display: none;
+}
+ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin-top: 18px;
+    margin-left: 38px;
+}
+ul li:hover .sub-menu-1 ul{
+ display: block;
+}
+ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    text-align:justify;
+    border-radius: 0px;
+    transition: 0.25s;
+}
+ul li:hover .sub-menu-1 ul li :hover{
+ background-color: rgba(255, 0, 0, 0.527);
+ padding: 2px 10px;
+}
+
+#img{
+  position:relative;
+  left: 1300px;
+  top: 0;
+  height: 100px;
+  width: 100px;
+}
+
+body{
+    height: 400vh;
+}
