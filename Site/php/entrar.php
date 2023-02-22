@@ -1,3 +1,13 @@
+<?php
+
+    if(isset($_POST['submit']))
+    {
+        print_r($_POST['nome'])
+        print_r($_POST['email'])
+        print_r($_POST['senha'])
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -43,7 +53,7 @@
                 <input type="password" id="password" name="senha">
             </label>
 
-            <input type="submit" value="Sign Up" id="button">
+            <input type="submit" value="submit" id="submit">
         </form>
     </main>
     <section class="images">

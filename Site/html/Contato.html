@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <title>Contato</title>
     <link rel="stylesheet" href="/Site/css/cabeçalho.css">
+    <link rel="stylesheet" href="/Site/css/contato.css">
+    <link rel="stylesheet" href="/Site/php/contato.php">
 </head>
 <body>
     <header>
@@ -28,6 +31,21 @@
         </div><!--cabeçalho-link-->
         <div class="icon"><span><ion-icon name="bag-outline"></ion-icon></span></div><!--icon-->
     </header>
-
+    <div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+                <form action="https://formsubmit.co/victoremanuelsilva517@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea placeholder="Mensagem" name="mensagem" id="msg" cols="30" rows="10" required></textarea>
+                    <button class="btn" type="submit">Enviar</button>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="box">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/Site/html/obrigado.html">
+               </form>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
