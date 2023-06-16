@@ -2,7 +2,7 @@
      $dbHost = 'Localhost';
      $dbUsername = 'root';
      $dbPassword = '';
-     $dbName = 'formulario-cya'
+     $dbName = 'formulario-victor'
 
      $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
 

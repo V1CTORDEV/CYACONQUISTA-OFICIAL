@@ -1,4 +1,6 @@
 <?php
+ ini_set("display_errors", "1");
+ error_reporting(E_ALL);
 
     if(isset($_POST['submit']))
     {
@@ -9,7 +11,7 @@
 
 ?>
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
